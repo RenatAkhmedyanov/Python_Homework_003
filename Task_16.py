@@ -26,4 +26,5 @@ else:
             count += 1
 
     print(list)
-    print(count)
+    if count == 0: print('Введенное число отсутствует в списке.')
+    else: print(f'Количесвто раз, которое встречается введенное число: {count}')
